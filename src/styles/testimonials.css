@@ -6,8 +6,41 @@
     gap: 48px;
 }
 
-#testimonial_chef {
-    width: 500px;
+.logos {
+    display: flex;
+    flex-direction: column; /* Apenas as imagens ficam empilhadas */
+    gap: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 120px;
+}
+
+#testimonial_unesp {
+    width: 300px;
+    height: auto;
+}
+
+#testimonial_pref {
+    width: 300px;
+    height: auto;
+}
+
+#testimonial_space {
+    width: 400px;
+    height: auto;
+}
+
+#testimonial_ibge {
+    width: 350px;
+    height: auto;
+}
+
+#testimonial_formatura {
+    width: 400px;
     height: auto;
 }
 
@@ -16,7 +49,7 @@
 }
 
 #testimonials_content {
-    width: 50%;
+    width: 100%;
 }
 
 #feedbacks {
@@ -60,10 +93,26 @@
 
     #testimonials .section-subtitle {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
-    #testimonial_chef {
+    #testimonial_unesp {
+        display: none;
+    }
+
+    #testimonial_pref {
+        display: none;
+    }
+
+    #testimonial_space {
+        display: none;
+    }
+
+    #testimonial_ibge {
+        display: none;
+    }
+
+    #testimonial_formatura {
         display: none;
     }
 
@@ -88,3 +137,67 @@
         flex-direction: column;
     }
 } 
+
+/** 
+ * ===================================================================
+ * 08. common styles (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+.grey-section {
+	background: #ebebeb;
+}
+.grey-section p.lead {
+	color: #7d7d7d;
+}
+.section-intro {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+    font-size: 1.2rem;
+	margin-bottom: 3.6rem;
+	position: relative;
+}
+.section-intro h1 {
+	font-family: "poppins-semibold", serif;
+	font-size: 3.6rem;
+	color: #313131;
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+}
+.section-intro h5 {
+	color: #FF0077;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+
+/**
+ * responsive:
+ * common styles
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:768px) {
+	.section-intro {
+		max-width: 650px;
+	}
+	.section-intro h1 {
+		font-size: 3rem;
+	}
+}
+@media only screen and (max-width:600px) {
+	.section-intro h1 {
+		font-size: 2.6rem;
+	}
+	.section-intro h5 {
+		font-size: 1.5rem;
+		letter-spacing: .3rem;
+	}
+}
+@media only screen and (max-width:400px) {
+	.section-intro h1 {
+		font-size: 2.4rem;
+	}
+}

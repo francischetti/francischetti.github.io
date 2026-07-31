@@ -46,10 +46,28 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('#testimonial_chef', {
+    ScrollReveal().reveal('#testimonial_unesp', {
         origin: 'left',
-        duration: 1000,
-        distance: '20%'
+        duration: 2500,
+        distance: '50%'
+    })
+
+    ScrollReveal().reveal('#testimonial_pref', {
+        origin: 'left',
+        duration: 3500,
+        distance: '50%'
+    })
+
+    ScrollReveal().reveal('#testimonial_ibge', {
+        origin: 'left',
+        duration: 4500,
+        distance: '50%'
+    })
+
+    ScrollReveal().reveal('#testimonial_formatura', {
+        origin: 'left',
+        duration: 2000,
+        distance: '50%'
     })
 
     ScrollReveal().reveal('.feedback', {

@@ -8,91 +8,107 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Landing page</title>
+    <title>Portfolio Christopherson</title>
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+        <nav id="navbar">  <!-- BARRA DE NAVEGAÇÃO (RESPONSIVIDADE = DESKTOP) -->
+
+            <a href="#home">
+                <i class="fa-solid fa-angle-up"></i>
+            </a>
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
                 </li>
+               <li class="nav-item">
+                    <a href="#testimonials">Resumo</a>
+                </li>                
                 <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#menu">Portfólio</a>
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+           <a href="mailto:chris.francischetti@gmail.com" class = "btn-default">
+                Contacte-me  
+           </a>
 
-            <button id="mobile_btn">
+            <button id="mobile_btn">  <!-- BOTÃO OCULTO, Q SÓ APARECERÁ NOS DISPOSITIVOS MOBILES -->
                 <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
 
-        <div id="mobile_menu">
+        <div id="mobile_menu">  <!-- BARRA DE NAVEGAÇÃO (RESPONSIVIDADE = MOBILE) -->
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
+                    <a href="#testimonials">Resumo</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#menu">Portfólio</a>
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+            <a href="mailto:chris.francischetti@gmail.com" class = "btn-default">
+                Contacte-me  
+            </a>
         </div>
     </header>
 
-    <main id="content">
+    <main id="content">  <!-- INÍCIO DO CONTEÚDO  (CRIAREMOS 3 SEÇÕES: SOBRE; RESUMO; PORTFÓLIO) -->
         <section id="home">
             <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    O sabor que vai até
-                    <span>você</span>
+                    Christopherson
+                    <span>Francischetti</span>
                 </h1>
 
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit ut aliquam, purus sit amet
+                    Engenheiro de Machine Learning &
+                    <br>
+                    Cientista de Dados Jr.
                 </p>
 
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">
-                        Ver cardápio
+                    <a href="https://www.linkedin.com/in/chrisfrancischetti/" class="btn-default"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Linked In
                     </a>
 
-                    <a href="tel:+55555555555" id="phone_button">
+            <!--    <a href="tel:+55555555555" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
                         </button>
                         (51) 92342-3243
-                    </a>
+                    </a> -->               <!-- ÍCONE COM O CONTATO TELEFÔNICO QUE HAVIA NO TEMPLATE ORIGINAL -->
                 </div>
 
                 <div class="social-media-buttons">
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
+                    <a href="mailto:chris.francischetti@gmail.com"
+                        class="btn-default"
+                        aria-label="E-mail">
+                        <i class="fa-solid fa-envelope"></i>
                     </a>
 
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
+                     <a href="https://github.com/francischetti/"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                        class="btn-default"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="">
-                        <i class="fa-brands fa-facebook"></i>
+                     <a href="https://x.com/Francischetti_C"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                        class="btn-default"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-twitter"></i>
                     </a>
                 </div>
             </div>
@@ -102,14 +118,124 @@
             </div>
         </section>
 
+        <section id="about">        
+            <br><br><br>              
+            <h2 class="section-title">Sobre</h2>
+            <h3 class="section-subtitle">Quem sou</h3> 
+            <p class="section-intro" align="justify">
+             <br>
+             Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
+             pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
+             Atuo na Seção Técnica Acadêmica e exerço a função secretário nos Comitês de Ética em Pesquisas da faculdade 
+             onde estou alocado. Experiências anteriores como Servidor Público Municipal no Departamento da Receita/ 
+             Setor de Tributação; Servidor Público Federal como Coordenador Censitário, contratado para atuar no Censo 
+             Demográfico 2020-2022. Conhecedor de diversas ferramentas metodológicas voltadas para melhorias contínuas e 
+             específicas (análises de causas em problemas da produção e controle estatístico dos processos) tendo atuado, 
+             antes, como Analista de Processos, mapeando processos fabris, desenvolvendo Fluxogramas de Processos e focado
+              na criação de Padrões Operacionais, acompanhamento de Indicadores de Desempenho, desenvolvimento de Dashboards. 
+              Conhecimento avançado e experiência no Pacote MS Office. Trabalhos autônomos com manutenção de micros - 
+              formatação e configuração - e suporte a usuários com o desenvolvimento de planilhas e programas em linguagem VBA.
+            </p>           
+        </section>
+
+        <section id="testimonials">
+            <div class="logos">
+                <img src="src/images/LOGO_UNESP.png" id="testimonial_unesp" alt="">              
+                <img src="src/images/logo_aracatuba_topo.png" id="testimonial_pref" alt="">
+                <img src="src/images/LOGO_IBGE.png" id="testimonial_ibge" alt="">
+               <img src="src/images/space.png" id="testimonial_space" alt="">                
+                <img src="src/images/FORMATURA.png" id="testimonial_formatura" alt="">
+            </div>
+
+            <div class="conteudo">
+                <div id="testimonials_content">
+                    <br><br><br>
+                    <h2 class="section-title">
+                        Resumo
+                    </h2>
+                    <h3 class="section-subtitle">
+                        Minhas credenciais
+                        <br><br>
+                    </h3>
+                    <h2>
+                        <font color='blue'>• Experiências:</font>
+                    </h2>  
+                    <p class="section-intro">
+                        <h2>UNESP</h2><br>
+                        Servidor Público Administrativo - Secretário do CEP/CEUA<br>
+                        outubro de 2023 - até o momento (Atual)<br><br>
+                        • Trabalhos administrativos na Seção Técnica Acadêmica como Secretário da Comissão de Ética no Uso de Animais (CEUA) e do Comitê de Ética em Pesquisas com seres humanos (CEP).<br>
+                    </p>
+                    <p class="section-intro">
+                        <h2>Prefeitura Municipal de Araçatuba/SP</h2><br>
+                        Servidor Público Administrativo - Secretaria da Fazenda<br>
+                        junho de 2023 - outubro de 2023 (5 meses)<br><br>
+                        • Cadastro de Contribuintes com isenção de IPTU. Cadastro de Imobiliários. Cadastro de Óbitos. Lançamento de taxas de abertura de alvará, renovação de alvará, alterações e taxas diversas. Suporte a empresas/ escritórios e atendimento a contribuintes.<br>
+                    </p>
+                    <p class="section-intro">
+                        <h2>IBGE</h2><br>
+                        Servidor Temporário - Coordenador Censitário de Subárea<br>
+                        janeiro de 2020 - dezembro de 2021 (2 anos)<br><br>
+                        • Desempenho de atividades administrativas necessárias à realização do Censo Demográfico 2020, tais como atualização do CNEFE, atualização de mapas de setores censitários e documentos correlatos, contato com autoridades municipais, etc.<br><br>
+                        • Trabalhos de atualização da Base Territorial, como análise de imagens de satélite para delimitação de setores censitários, utilização dos softwares QGIS e Google Earth para elaboração de croquis e estimativas populacionais<br><br>
+                        • Apoio a pesquisas contínuas da agência, tais como as pesquisas econômicas PAC, PIA, PAS, PAIC; PNAD’s (participação direta na pesquisa de pulso PNAD-COVID); Registros Civis (participação direta na pesquisa de divórcios 2020)<br><br>
+                        • Apoio ao Coordenador de Área nas Reuniões de Planejamento de Acompanhamento do Censo (REPACs) nas Câmara Municipais e Prefeituras.<br>
+                    </p>
+                    <p class="section-intro">
+                        <h2>Empregado C.L.T. na iniciativa privada</h2><br>
+                        abr de 2008 - nov de 2018 (10 anos e 8 meses)<br><br>
+                        Operador; Apoio logístico; Programador de Sistemas; Analista de Processos e Supervisor de Qualidade.<br>
+                        <br><br><br>
+                    </p>                          
+
+                    <h2>
+                        <font color='blue'>• Formações Acadêmicas:</font>
+                    </h2>  
+                    <p class="section-intro">
+                        <h2>Faculdade Facint/ Data Science Academy- Maringá/PR</h2><br>
+                        Especialização, Engenharia de Machine Learning · (2025 - 2026)<br>
+                    </p>
+                    <p class="section-intro">
+                        <h2>Centro Universitário Salesiano Auxilium- Araçatuba/SP</h2><br>
+                        Bacharel em, Engenharia de Controle e Automação · (2005 - 2009)<br>
+                        <br><br><br>
+                    </p>
+
+                    <h2>
+                        <font color='blue'>• Cursos:</font>
+                    </h2>  
+                    <p class="section-intro">
+                        <h2>Data Science Academy</h2><br>
+                        Fundamentos de Linguagem Python para Análise de Dados e Data Science · (2025)<br>
+                    </p>                              
+                    <p class="section-intro">
+                        <h2>Data Science Academy</h2><br>
+                        Microsoft Power BI para Data Science · (2019)<br>
+                    </p>                                              
+                    <p class="section-intro">
+                        <h2>SENAC</h2><br>
+                        Programa Profissão, Programação de Computadores · (2002)<br>
+                        <br><br><br>
+                    </p>
+
+                </div>
+
+            </div>    
+        </section>
+
         <section id="menu">
-            <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            <br><br><br>
+            <h2 class="section-title">Portfólio</h2>
+            <h3 class="section-subtitle">Alguns dos meus projetos</h3>
 
             <div id="dishes">
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
+                    <div class="btn-default">
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver resumo do projeto
+                    </a>
                     </div>
 
                     <img src="src/images/dish.png" class="dish-image" alt="">
@@ -122,26 +248,15 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
+                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
+                    <div class="btn-default">
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver resumo do projeto
+                    </a>
                     </div>
 
                     <img src="src/images/dish2.png" class="dish-image" alt="">
@@ -154,26 +269,15 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
+                   <div class="btn-default">
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver resumo do projeto
+                    </a>
                     </div>
 
                     <img src="src/images/dish3.png" class="dish-image" alt="">
@@ -186,26 +290,15 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
+                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
+                    <div class="btn-default">
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver resumo do projeto
+                    </a>
                     </div>
 
                     <img src="src/images/dish4.png" class="dish-image" alt="">
@@ -218,85 +311,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
                 </div>
             </div>
         </section>
-
-        <section id="testimonials">
-            <img src="src/images/chef.png" id="testimonial_chef" alt="">
-
-            <div id="testimonials_content">
-                <h2 class="section-title">
-                    Depoimentos
-                </h2>
-                <h3 class="section-subtitle">
-                    O que os clientes falam sobre nós
-                </h3>
-
-                <div id="feedbacks">
-                    <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Fulana de Tal
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <button class="btn-default">
-                    Ver mais avaliações
-                </button>
-            </div>
-        </section>
+                
     </main>
 
     <footer>
@@ -307,19 +325,29 @@
                 &copy 2024 Larissa Kich
             </span>
 
-            <div class="social-media-buttons">
-                <a href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
+                <div class="social-media-buttons">
+                    <a href="mailto:chris.francischetti@gmail.com"
+                        class="btn-default"
+                        aria-label="E-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
 
-                <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+                     <a href="https://github.com/francischetti/"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                        class="btn-default"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
 
-                <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
+                     <a href="https://x.com/Francischetti_C"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                        class="btn-default"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
         </div>
     </footer>
     <script src="src/javascript/script.js"></script>
