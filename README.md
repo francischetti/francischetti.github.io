@@ -1,10 +1,10 @@
-# 🍔 Landing Page
+# 🚀 Meu portfolio pessoal
 
-Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e JavaScript. Este projeto apresenta um design limpo com animações suaves.
+Uma landing page responsiva contendo minha bio, construída com HTML, CSS e JavaScript. Baseado no template fornecido pela **[Larissa Kich](https://larissakich.github.io/landing-page-food-theme/)** do canal https://www.youtube.com/@larissakich.
 
 ## 🌐 Visualize o projeto:
 
-**[Ver Projeto Online](https://larissakich.github.io/landing-page-food-theme/)**
+**[Ver Projeto Online](https://francischetti.github.io/)**
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -16,7 +16,7 @@ Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e
 - **Font Awesome**: Ícones
 - **Google Fonts**: Fontes
 
-## 🚀 Como Começar
+## 🚀 Como utilizar o template para criar o seu próprio portfolio:
 
 1. Clone ou baixe os arquivos do projeto
 2. Abra o arquivo `index.html` no seu navegador
