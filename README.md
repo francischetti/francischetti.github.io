@@ -19,5 +19,7 @@ Uma landing page responsiva contendo minha bio, construída com HTML, CSS e Java
 ## 🚀 Como utilizar o template para criar o seu próprio portfolio:
 
 1. Clone ou baixe os arquivos do projeto
-2. Abra o arquivo `index.html` no seu navegador
-3. Não é necessária configuração adicional - todas as dependências são carregadas via CDN
+2. Abra o arquivo `index.html` com sua IDE favorita
+3. Atualize os textos dos scripts e imagens adequando-os à sua própria realidade
+4. Abra o arquivo `index.html` no seu navegador para visualizá-lo
+5. Não é necessária configuração adicional - todas as dependências são carregadas via CDN
