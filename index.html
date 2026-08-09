@@ -273,7 +273,7 @@
                             </div>
 
                             <div class="summary-group">
-                                <p class="section-intro" align="justify">
+                                <p class="title" align="justify">
                                 <br>
                                 Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
                                 pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
@@ -294,7 +294,7 @@
                             </div>
 
                             <div class="summary-group">
-                                <p class="section-intro" align="justify">
+                                <p class="title" align="justify">
                                 <br>
                                 Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
                                 pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
@@ -355,7 +355,7 @@
                             </div>
 
                             <div class="summary-group">
-                                <p class="section-intro" align="justify">
+                                <p class="title" align="justify">
                                 <br>
                                 Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
                                 pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
@@ -399,7 +399,7 @@
                     <dialog id="modal-3">
                         <div class="modal-header">
                             <h1 class="modal-title">
-                                Projeto 3
+                                <font color = 'red'>Gestão de Retrabalho</font>
                             </h1>
                                 <button 
                                 class="close-modal" 
@@ -411,25 +411,59 @@
 
                         <div class="modal-body">
                             <div class="images-group">
-                                    <img src="src/images/Teste.gif" id="retrabalho" alt="">                                              
+                                    <img src="src/images/FOTO_0.png" id="Tela_boas_vindas_retrabalho" alt="">                                              
                             </div>
 
                             <div class="summary-group">
-                                <p class="section-intro" align="justify">
+                                <p class="title" align="justify">
                                 <br>
-                                Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
-                                pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
-                                Atuo na Seção Técnica Acadêmica e exerço a função secretário nos Comitês de Ética em Pesquisas da faculdade 
-                                onde estou alocado. Experiências anteriores como Servidor Público Municipal no Departamento da Receita/ 
-                                Setor de Tributação; Servidor Público Federal como Coordenador Censitário, contratado para atuar no Censo 
-                                Demográfico 2020-2022. Conhecedor de diversas ferramentas metodológicas voltadas para melhorias contínuas e 
-                                específicas (análises de causas em problemas da produção e controle estatístico dos processos) tendo atuado, 
-                                antes, como Analista de Processos, mapeando processos fabris, desenvolvendo Fluxogramas de Processos e focado
-                                na criação de Padrões Operacionais, acompanhamento de Indicadores de Desempenho, desenvolvimento de Dashboards. 
-                                Conhecimento avançado e experiência no Pacote MS Office. Trabalhos autônomos com manutenção de micros - 
-                                formatação e configuração - e suporte a usuários com o desenvolvimento de planilhas e programas em linguagem VBA.
-                                </p>     
-                            </div>                                
+                                <font color='blue'><strong>CONTEXTO:</strong></font><br><br>
+                                Durante os anos de 2013 a 2017, trabalhei em uma Indústria de Linha Branca no interior de São Paulo,   
+                                no setor de Engenharia da Qualidade - mais especificamente, como Inspetor de Qualidade no L.A.P. 
+                                (Laboratório de Auditoria de Produtos). Este laboratório ficava situado no final da linha de  
+                                montagem de Lavadoras Automáticas (popularmente, máquinas de lavar roupas). 
+                                Passávamos o dia todo fazendo testes completos em uma amostra de lavadoras, que girava em torno de 10%  
+                                de toda produção diária (amostragem probabilística do tipo "sistemática"). Tudo que era reprovado nestes testes ía  
+                                para o <strong>Setor de Retrabalho</strong>, que era uma espécie de "oficina mecânica" 
+                                em que um técnico da produção ficava retrabalhando (consertando) as lavadoras que eram reprovadas em nossos testes. 
+                                Recebi do meu chefe a missão de criar um <strong>software de gerenciamento</strong> destes retrabalhos, a fim de
+                                identificarmos para o Gerente de Produção, quais eram as maiores fontes de defeitos que estavam gerando um 
+                                <strong>número elevado de retrabalho</strong> à época. Foi aí que nasceu o software <strong>Gestão de Retrabalho</strong>.<br><br><br>
+                                <font color='blue'><strong>ARQUITETURA DE FUNCIONAMENTO:</strong></font><br><br>
+                                <font color='red'><strong>1.</strong></font> O setor de qualidade (LAP) e também os testes na própria linha de montagem <strong>detectavam algum defeito</strong> (Defeito Reclamado);<br>
+                                <font color='red'><strong>2.</strong></font> Uma etiqueta de <strong>Defeito Reclamado</strong> era preenchida e pendurada na lavadora, a qual constava qual o item/peça apresentou defeito, e qual o defeito percebido (ocorrência);<br>
+                                <font color='red'><strong>3.</strong></font> A máquina era então conduzida ao <strong>Setor de Retrabalho</strong> para que o técnico apontasse o código do Defeito Constatado numa <strong>Folha de Retrabalhos</strong>;<br>
+                                <font color='red'><strong>4.</strong></font> Esta folha era então direcionada ao <strong>Apontador de Retrabalhos</strong>, que fazia os lançamentos no software <strong>Gestão de Retrabalho</strong>;<br>
+                                <font color='red'><strong>5.</strong></font> No dia seguinte, na <strong>Reunião Matinal (DDS)</strong> que precede o início da produção, eram mostrados os apontamentos e <strong>gráficos das ocorrências</strong> registradas na véspera, a fim de se corrigirem eventuais desvios em algum time de montagem.<br><br><br>
+                                <strong>Times de montagem na linha de Lavadoras Automáticas:</strong><br><br>
+                                • <font color = 'purple'><strong>Time1:</strong></font> Responsável pela montagem da parte inferior da lavadora (Motor/Correia/Transmissão);<br>
+                                • <font color = 'purple'><strong>Time2:</strong></font> Responsável pela montagem do Conjunto Lavante (Tanque de Água/Cesto de Roupas);<br>
+                                • <font color = 'purple'><strong>Time3:</strong></font> Responsável pela montagem do Gabinete de Aço e Pés Niveladores da lavadora;<br>
+                                • <font color = 'purple'><strong>Time4:</strong></font> Responsável pela montagem do Topo da lavadora (montagem da placa eletrônica, redes elétricas e mangueiras de nível);<br>
+                                • <font color = 'purple'><strong>Time5:</strong></font> Parte final da linha de montagem com pequenos testes elétricos e inspeções visuais.<br><br><br>
+                                <font color='blue'><strong>RESUMO DO SOFWARE:</strong></font><br><br>
+                                Conforme imagem acima, o software está dividido em <strong>três módulos principais:</strong> 
+                                1. Apontamentos de Retrabalhos; 2. Cadastros de Tabelas; 3. Relatórios e Gráficos.<br><br><br>
+                                </p> 
+                            </div>
+                            <div class="images-group">
+                                <strong>1.	APONTAMENTOS DE RETRABALHOS:</strong><br><br>
+                                Esta é a principal janela do programa, onde o <strong> Apontador de Retrabalhos</strong> efetua os lançamentos que chegam a ele por meio das <strong>Folhas de Retrabalho:</strong><br><br><br>
+                                <img src="src/images/FOTO_1.png" id="Retrabalho" alt=""> 
+                                <br><br><br>                                                               
+                                <strong>2.	CADASTROS:</strong><br><br>        
+                                Aqui são efetuados os cadastros assessórios, conforme imagem a seguir (<strong>PS:</strong> Para cadastrar novos usuários, é preciso estar logado como um usuário do tipo “Master”, caso contrário, este cadastro ficará invisível):<br><br><br>
+                                <img src="src/images/FOTO_2.png" id="Cadastros" alt=""> 
+                                <br><br><br>                                
+                                <strong>3.	RELATÓRIOS E GRÁFICOS:</strong><br><br>        
+                                Como o próprio nome já diz, este módulo é composto por <strong>diversos relatórios</strong> e <strong>gráficos</strong> que servem de subsídio para os supervisores e gerentes de produção analisarem qual(ais) o(s) time(s) com maiores índices de retrabalho, a fim de identificarem as suas causas e corrigirem os problemas apontados por esses gráficos. Cada botão foi pensado para um tipo de análise diferente, e possuem filtros que servem para que se busquem por informações específicas que se esteja investigando:<br><br><br>
+                                <img src="src/images/FOTO_3.png" id="Relatorios_e_graficos" alt=""> 
+                                <br><br><br>                                
+                                <img src="src/images/FOTO_4.png" id="Filtros" alt="">
+                                <br><br><br>
+                                A seguir, veremos os diversos tipos de relatórios e gráficos deste software, que ajudam os tomadores de decisão a fazerem suas análises:<br><br>
+                                <img src="src/images/Relatorios_e_graficos.gif" id="Relatorios_e_grafiso_gif" alt="">
+                            </div>                                                                                    
                         </div>                      
                     </dialog>
 
@@ -459,7 +493,7 @@
                     <dialog id="modal-4">
                         <div class="modal-header">
                             <h1 class="modal-title">
-                                Cadastro de Vasos Sob Pressão:
+                                <font color = 'red'>Cadastro de Vasos Sob Pressão:</font>
                             </h1>
                                 <button 
                                 class="close-modal" 
@@ -475,7 +509,7 @@
                             </div>
 
                             <div class="summary-group">
-                                <p class="section-intro" align="justify">
+                                <p class="title" align="justify">
                                 <br>
                                 <strong>Resumo</strong>:<br><br>
                                 Neste projeto coexistiram 2 objetivos:<br><br>
@@ -485,17 +519,17 @@
                                 e também as Certificações ISO (em especial a ISO 9.001 e ISO 22.000).<br><br>
                                 O 2º Objetivo foi desenvolver telas para facilitar o acompanhamento das Inspeções de Segurança nestes vasos/ caldeiras, 
                                 de modo a realizar alguns cálculos de maneira simplificada e manter um histórico atualizado de todos 
-                                os laudos e resultados das inspeções periódicas e/ou extraordinárias,  com o intuito de atender as legislações vigentes.<br><br>
-                                <strong>Veja, abaixo, algumas funcionalidades deste software através dos prints de algumas telas:</strong><br>
+                                os laudos e resultados das inspeções periódicas e/ou extraordinárias,  com o intuito de atender as legislações vigentes.<br><br><br>
+                                <strong>Veja, abaixo, algumas funcionalidades deste software através dos prints de algumas telas:</strong><br><br><br>
                                 </p>     
                             </div>  
-                             <div class="images-group">
-                                    RECURSOS DE CADASTRO:<br><br>
-                                    <img src="src/images/Telas_cadastro.gif" id="Tela_cadastro" alt="">
-                                    <br><br><br>
-                                    FERRAMENTAS DE CÁLCULOS:<br><br>        
-                                    <img src="src/images/Ferramentas_calculo.gif" id="Ferramentas_calculo" alt=""> 
-                                    <br><br><br>                                                                   
+                            <div class="images-group">
+                                RECURSOS DE CADASTRO:<br><br>
+                                <img src="src/images/Telas_cadastro.gif" id="Tela_cadastro" alt="">
+                                <br><br><br>
+                                FERRAMENTAS DE CÁLCULOS:<br><br>        
+                                <img src="src/images/Ferramentas_calculo.gif" id="Ferramentas_calculo" alt=""> 
+                                <br><br><br>                                                                   
                             </div>
                             <strong>Link para a Monografia (TCC):</strong> <a href="https://drive.google.com/file/d/1mbt4Z9zwLuo1dcNlS37_5zNqvqsVTfiR/view?usp=sharing"
                                                             target="_blank"
