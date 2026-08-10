@@ -339,7 +339,7 @@
                     <dialog id="modal-2">
                         <div class="modal-header">
                             <h1 class="modal-title">
-                                Projeto 2
+                                <font color = 'red'>PNAD-COVID- Entrevistas:</font>
                             </h1>
                                 <button 
                                 class="close-modal" 
@@ -350,26 +350,66 @@
                         </div>
 
                         <div class="modal-body">
-                            <div class="images-group">
-                                    <img src="src/images/Teste.gif" id="entrevista" alt="">                                              
+                            <div class="images-phone-group">
+                                    <img src="src/images/Tela_login.png" id="Tela_login" alt="">
+                                    <img src="src/images/Tela_endereco.png" id="Tela_endereco" alt="">
+                                    <img src="src/images/Tela_mudanca_endereco.png" id="Tela_mudanca_endereco" alt="">    
                             </div>
 
                             <div class="summary-group">
                                 <p class="title" align="justify">
                                 <br>
-                                Engenheiro de Machine Learning e Cientista de Dados. Graduado em Engenharia de Controle e Automação 
-                                pelo UniSALESIANO de Araçatuba/SP. Sou servidor público em uma das maiores universidades do país (Unesp). 
-                                Atuo na Seção Técnica Acadêmica e exerço a função secretário nos Comitês de Ética em Pesquisas da faculdade 
-                                onde estou alocado. Experiências anteriores como Servidor Público Municipal no Departamento da Receita/ 
-                                Setor de Tributação; Servidor Público Federal como Coordenador Censitário, contratado para atuar no Censo 
-                                Demográfico 2020-2022. Conhecedor de diversas ferramentas metodológicas voltadas para melhorias contínuas e 
-                                específicas (análises de causas em problemas da produção e controle estatístico dos processos) tendo atuado, 
-                                antes, como Analista de Processos, mapeando processos fabris, desenvolvendo Fluxogramas de Processos e focado
-                                na criação de Padrões Operacionais, acompanhamento de Indicadores de Desempenho, desenvolvimento de Dashboards. 
-                                Conhecimento avançado e experiência no Pacote MS Office. Trabalhos autônomos com manutenção de micros - 
-                                formatação e configuração - e suporte a usuários com o desenvolvimento de planilhas e programas em linguagem VBA.
-                                </p>     
-                            </div>                                
+                                <font color='blue'><strong>CONTEXTO:</strong></font><br><br>
+                                Em 2020, eu fui nomeado para trabalhar no IBGE para o cargo de <strong>Coordenador Censitário de Subárea</strong>,    
+                                após passar em um concurso de temporários deste importante órgão de Estado. Inicialmente fomos 
+                                contratados para auxiliar nos preparativos do <strong>Censo Demográfico</strong> que estava previsto para acontecer  
+                                em agosto deste ano, porém, em decorrência do surto do vírus <strong>SARS-CoV-2</strong>, causador da COVID-19, 
+                                o Censo que ocorreria naquele ano acabou sendo adiado para 2022. Como consequência deste adiamento, e  
+                                como forma de aproveitar o contingente que havia sido contratado para esta finalidade, o IBGE acabou aproveitando os   
+                                contratados deste concurso para auxiliar na recém lançada pesquisa de pulso <strong>PNAD-COVID19</strong>, 
+                                com o intuito de acompanhar os efeitos da pandemia na saúde, no trabalho e na vida da população brasileira.<br><br><br>
+                                <font color='blue'><strong>RESUMO:</strong></font><br><br>
+                                O objetivo deste projeto foi <strong>recriar</strong> o aplicativo de entrevistas da Pesquisa Nacional por Amostra de Domicílios     
+                                do IBGE, relacionada à pandemia do COVID-19 <strong>(pesquisa PNAD-COVID19)</strong>, na qual trabalhei como entrevistador, 
+                                como forma de aplicar os conhecimentos que adquiri no curso de <strong>Microsoft Power Apps® 
+                                </strong> que realizei em 2023 . Trata-se de apenas um protótipo com fins didáticos, no qual eu me propus a reproduzir as telas 
+                                e perguntas do questionário real, porém <strong>sem</strong> abranger todos os quesitos abordados na pesquisa oficial do IBGE. <br><br><br>                                
+                                <font color='blue'><strong>ESTRUTURA DO QUESTIONÁRIO:</strong></font><br><br>
+                                Originalmente, a <strong>pesquisa oficial</strong> do IBGE era composta de <strong>5 módulos</strong>:<br><br>
+                                <font color='red'><strong>Módulo A: </strong></font> Características dos moradores;<br>
+                                <font color='red'><strong>Módulo B: </strong></font> Módulo sobre a COVID-19 (sintomas e cuidados dos entrevistados);<br>
+                                <font color='red'><strong>Módulo C: </strong></font> Características de trabalho das pessoas de 14 anos ou mais de idade;<br>
+                                <font color='red'><strong>Módulo D: </strong></font> Rendimentos de outras fontes de todos os moradores do domicílio;<br>
+                                <font color='red'><strong>Módulo F: </strong></font> Valor do aluguel.<br><br><br>
+                                <font color='blue'><strong>RESUMO DO MEU APP:</strong></font><br><br>
+                                Como o app foi construído para fins didáticos, com o intuito de me aprofundar na ferramenta <strong>Power Apps</strong>,  
+                                optei por recriar apenas <strong>os dois primeiros módulos</strong> da pesquisa oficial: Módulo A (Características dos moradores) e
+                                Módulo B (Módulo sobre a COVID-19), simplificando um pouco a construção do aplicativo.<br><br><br>
+                                </p> 
+                            </div>
+                            <div class="images-group">
+                                <strong>1.	MÓDULO A- CARACTERÍSTICAS DOS MORADORES:</strong><br><br>
+                                <img src="src/images/Modulo_A.png" id="Modulo_A" alt=""><br><br>
+                                Ao avançar na primeira tela deste módulo, aparecerá uma mensagem que o entrevistador deverá ler ao entrevistado, com uma 
+                                breve explicação da pesquisa. Em seguida, deve-se clicar no botão inferior direito para que apareçam as primeiras perguntas
+                                do questionário (<strong>o entrevistador não deve jamais influenciar nas respostas do entrevistado</strong>).<br><br><br>
+                                <div class="images-phone-group">
+                                    <img src="src/images/Modulo_A(1).png" id="Modulo_A(1)" alt="">
+                                    <img src="src/images/Modulo_A(2).png" id="Modulo_A(2)" alt="">
+                                    <img src="src/images/Modulo_A(3).png" id="Modulo_A(3)" alt="">                                      
+                                </div>
+                                <br><br><br><br>                                   
+                                <strong>2.	MÓDULO B- COVID-19:</strong><br><br>
+                               <img src="src/images/Modulo_B.png" id="Modulo_B" alt=""><br><br><br>
+                                Aqui serão feitas perguntas relativas a sintomas da COVID e/ou de síndromes gripais. Assim como no módulo anterior, 
+                                deve-se iniciar o módulo lendo a mensagem inicial do módulo ao entrevistado e, na sequência, seguir com as perguntas
+                                da tela, na ordem em que forem aparecendo: <br><br><br>
+                                <img src="src/images/Quesitos_modulo_B.gif" id="Quesitos_modulo_B" alt="">
+                                <br><br><br>
+                                <strong>PS:</strong> Ao utilizar o app, você notará que alguns quesitos do questionário (p.ex. o quesito B2, referente à busca por
+                                algum estabelecimento de saúde), só aparecem a pessoas que responderam "sim" para alguns dos sintomas... isso se repete ao longo
+                                do questionário, ou seja, de acordo com as respostas, o questionário pode ficar mais longo ou mais curto para cada entrevistado.
+                            </div>                                                                                    
                         </div>                      
                     </dialog>
                     
@@ -399,7 +439,7 @@
                     <dialog id="modal-3">
                         <div class="modal-header">
                             <h1 class="modal-title">
-                                <font color = 'red'>Gestão de Retrabalho</font>
+                                <font color = 'red'>Gestão de Retrabalho:</font>
                             </h1>
                                 <button 
                                 class="close-modal" 
@@ -429,7 +469,7 @@
                                 Recebi do meu chefe a missão de criar um <strong>software de gerenciamento</strong> destes retrabalhos, a fim de
                                 identificarmos para o Gerente de Produção, quais eram as maiores fontes de defeitos que estavam gerando um 
                                 <strong>número elevado de retrabalho</strong> à época. Foi aí que nasceu o software <strong>Gestão de Retrabalho</strong>.<br><br><br>
-                                <font color='blue'><strong>ARQUITETURA DE FUNCIONAMENTO:</strong></font><br><br>
+                                <font color='blue'><strong>ARQUITETURA DA SOLUÇÃO:</strong></font><br><br>
                                 <font color='red'><strong>1.</strong></font> O setor de qualidade (LAP) e também os testes na própria linha de montagem <strong>detectavam algum defeito</strong> (Defeito Reclamado);<br>
                                 <font color='red'><strong>2.</strong></font> Uma etiqueta de <strong>Defeito Reclamado</strong> era preenchida e pendurada na lavadora, a qual constava qual o item/peça apresentou defeito, e qual o defeito percebido (ocorrência);<br>
                                 <font color='red'><strong>3.</strong></font> A máquina era então conduzida ao <strong>Setor de Retrabalho</strong> para que o técnico apontasse o código do Defeito Constatado numa <strong>Folha de Retrabalhos</strong>;<br>
@@ -456,7 +496,7 @@
                                 <img src="src/images/FOTO_2.png" id="Cadastros" alt=""> 
                                 <br><br><br>                                
                                 <strong>3.	RELATÓRIOS E GRÁFICOS:</strong><br><br>        
-                                Como o próprio nome já diz, este módulo é composto por <strong>diversos relatórios</strong> e <strong>gráficos</strong> que servem de subsídio para os supervisores e gerentes de produção analisarem qual(ais) o(s) time(s) com maiores índices de retrabalho, a fim de identificarem as suas causas e corrigirem os problemas apontados por esses gráficos. Cada botão foi pensado para um tipo de análise diferente, e possuem filtros que servem para que se busquem por informações específicas que se esteja investigando:<br><br><br>
+                                Como o próprio nome já diz, este módulo é composto por <strong>diversos relatórios</strong> e <strong>gráficos</strong> que servem de subsídio para os supervisores e gerentes de produção analisarem qual(ais) o(s) time(s) com maiores índices de retrabalho, a fim de identificarem as suas causas e corrigirem os problemas apontados por esses gráficos. Cada botão foi pensado para um tipo de análise diferente, e possuem filtros que servem para que se busque por informações específicas que se esteja investigando:<br><br><br>
                                 <img src="src/images/FOTO_3.png" id="Relatorios_e_graficos" alt=""> 
                                 <br><br><br>                                
                                 <img src="src/images/FOTO_4.png" id="Filtros" alt="">
