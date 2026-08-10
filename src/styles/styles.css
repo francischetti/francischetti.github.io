@@ -70,7 +70,7 @@ section {
     background-color: var(--color-primary-5);
     border-radius: 12px;    
     padding: 10px 16px;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;          
+    gap: 180px;          
     font-size: 20px;
     font-weight: 700;
     color: #111928;
