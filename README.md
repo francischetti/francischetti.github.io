@@ -23,3 +23,10 @@ Uma landing page responsiva contendo minha bio, construída com HTML, CSS e Java
 3. Atualize os textos dos scripts e imagens adequando-os à sua própria realidade
 4. Abra o arquivo `index.html` no seu navegador para visualizá-lo
 5. Não é necessária configuração adicional - todas as dependências são carregadas via CDN
+
+## 🌐 Outros sites com templates free e pagos:
+
+1. [HTML5 UP](https://html5up.net/)
+2. [BootstrapMade](https://bootstrapmade.com/)
+3. [Colorlib](https://colorlib.com/wp/templates/)
+4. [TemplateMo](https://templatemo.com/)
